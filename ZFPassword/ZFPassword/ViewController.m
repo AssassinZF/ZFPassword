@@ -33,7 +33,7 @@ const CGFloat button_w = 50;
 }
 
 -(void)addNavRightItem{
-    UIBarButtonItem *item = [[UIBarButtonItem alloc] initWithTitle:@"设置" style:UIBarButtonItemStylePlain target:self action:@selector(clickSetting)];
+    UIBarButtonItem *item = [[UIBarButtonItem alloc] initWithImage:[UIImage imageNamed:@"setting"] style:UIBarButtonItemStylePlain target:self action:@selector(clickSetting)];
     self.navigationItem.rightBarButtonItem = item;
     
     
@@ -61,6 +61,7 @@ const CGFloat button_w = 50;
         [_addButton addTarget:self action:@selector(clickAdd) forControlEvents:UIControlEventTouchUpInside];
         _addButton.backgroundColor = BASIC_COLOR;
         _addButton.layer.shadowColor = [UIColor whiteColor].CGColor;
+        [_addButton setBackgroundImage:[UIImage imageNamed:@"add"] forState:UIControlStateNormal];
         _addButton.layer.cornerRadius = button_w/2;
         _addButton.bounds = CGRectMake(0, 0, button_w, button_w);
         CGSize size = self.view.frame.size;
@@ -125,6 +126,15 @@ const CGFloat button_w = 50;
     cell.titleLabel.text = model.titleLabel;
     
     return cell;
+}
+
+-(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
+    [tableView deselectRowAtIndexPath:indexPath animated:YES];
+    PasswordModel *model = self.dataSource[indexPath.row];
+    AddPasswordViewController *vc = [[AddPasswordViewController alloc] initWithNibName:NSStringFromClass([AddPasswordViewController class]) bundle:nil];
+    vc.model = model;
+    [self.navigationController pushViewController:vc animated:YES];
+
 }
 
 - (BOOL)tableView:(UITableView *)tableView canEditRowAtIndexPath:(NSIndexPath *)indexPath

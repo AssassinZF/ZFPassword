@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 #import "BasicViewController.h"
+@class PasswordModel;
 @interface AddPasswordViewController : BasicViewController
 @property (nonatomic , copy) void(^saveSuccess)(void);
+@property (nonatomic , strong) PasswordModel *model;
 @end

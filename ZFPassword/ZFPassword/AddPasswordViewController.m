@@ -11,10 +11,14 @@
 #import "PasswordModel.h"
 
 @interface AddPasswordViewController ()
+{
+    BOOL isEdit;
+}
 @property (weak, nonatomic) IBOutlet UITextField *titleLabel;
 @property (weak, nonatomic) IBOutlet UITextField *accountTextFidld;
 @property (weak, nonatomic) IBOutlet UITextField *passwordTextField;
 @property (weak, nonatomic) IBOutlet UITextField *remarkTextField;
+@property (weak, nonatomic) IBOutlet UIButton *bottomButton;
 
 @end
 
@@ -22,12 +26,40 @@
 
 -(void)viewDidAppear:(BOOL)animated{
     [super viewDidAppear:animated];
-    [self.titleLabel becomeFirstResponder];
+
+    if (!self.model) {
+        [self.titleLabel becomeFirstResponder];
+    }
+}
+
+-(void)viewWillDisappear:(BOOL)animated{
+    [super viewWillDisappear:animated];
+    [self.view endEditing:YES];
+}
+
+-(void)viewWillAppear:(BOOL)animated{
+    [super viewWillAppear:animated];
 }
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.title = @"添加密码";
+    
+    if (self.model) {
+        [self.bottomButton setTitle:@"保存修改" forState:UIControlStateNormal];
+        self.bottomButton.hidden = YES;
+        self.titleLabel.text = self.model.titleLabel;
+        self.accountTextFidld.text = self.model.userName;
+        self.passwordTextField.text = self.model.password;
+        if (self.model.remark.length) {
+            self.remarkTextField.text = self.model.remark;
+        }
+    }
+}
+
+-(void)setModel:(PasswordModel *)model{
+    _model = model;
+    
 }
 
 -(void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event{
