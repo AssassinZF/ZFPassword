@@ -9,6 +9,10 @@ target 'ZFPassword' do
 
  pod 'FMDB'
  pod 'pop', '~> 1.0'
+ pod 'Masonry'
+ pod 'MBProgressHUD', '~> 1.0.0'
+
+
 
   target 'ZFPasswordTests' do
     inherit! :search_paths

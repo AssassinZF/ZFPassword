@@ -1,0 +1,17 @@
+//
+//  PrefixHeader.pch
+//  ZFPassword
+//
+//  Created by LZF on 2017/3/10.
+//  Copyright © 2017年 zf.com. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#define RGBColor(r, g, b) [UIColor colorWithRed:(r)/255.0f green:(g)/255.0f blue:(b)/255.0f alpha:1.0]
+#define BASIC_COLOR RGBColor(38, 46, 54)
+
+
+
+#endif /* PrefixHeader_pch */

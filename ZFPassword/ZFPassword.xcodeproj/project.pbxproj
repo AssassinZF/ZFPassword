@@ -10,6 +10,13 @@
 		3C3F6EF91E724A3900677A19 /* PasswordModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C3F6EF81E724A3900677A19 /* PasswordModel.m */; };
 		3C3F6EFF1E72505800677A19 /* JKDBHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C3F6EFC1E72505800677A19 /* JKDBHelper.m */; };
 		3C3F6F001E72505800677A19 /* JKDBModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C3F6EFE1E72505800677A19 /* JKDBModel.m */; };
+		3C3F6F051E72795600677A19 /* BasicNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C3F6F041E72795600677A19 /* BasicNavigationController.m */; };
+		3C3F6F081E727C2F00677A19 /* SettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C3F6F071E727C2F00677A19 /* SettingViewController.m */; };
+		3C3F6F0B1E72830600677A19 /* AddPasswordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C3F6F0A1E72830600677A19 /* AddPasswordViewController.m */; };
+		3C3F6F0E1E72848C00677A19 /* BasicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C3F6F0D1E72848C00677A19 /* BasicViewController.m */; };
+		3C3F6F101E72852F00677A19 /* AddPasswordViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3C3F6F0F1E72852F00677A19 /* AddPasswordViewController.xib */; };
+		3C3F6F141E72949100677A19 /* CustomTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C3F6F121E72949100677A19 /* CustomTableViewCell.m */; };
+		3C3F6F151E72949100677A19 /* CustomTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3C3F6F131E72949100677A19 /* CustomTableViewCell.xib */; };
 		3CDF6D761E71335D00F251C4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CDF6D751E71335D00F251C4 /* main.m */; };
 		3CDF6D791E71335D00F251C4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CDF6D781E71335D00F251C4 /* AppDelegate.m */; };
 		3CDF6D7C1E71335D00F251C4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CDF6D7B1E71335D00F251C4 /* ViewController.m */; };
@@ -49,6 +56,19 @@
 		3C3F6EFC1E72505800677A19 /* JKDBHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKDBHelper.m; sourceTree = "<group>"; };
 		3C3F6EFD1E72505800677A19 /* JKDBModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKDBModel.h; sourceTree = "<group>"; };
 		3C3F6EFE1E72505800677A19 /* JKDBModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKDBModel.m; sourceTree = "<group>"; };
+		3C3F6F011E7278C300677A19 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		3C3F6F031E72795600677A19 /* BasicNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BasicNavigationController.h; sourceTree = "<group>"; };
+		3C3F6F041E72795600677A19 /* BasicNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BasicNavigationController.m; sourceTree = "<group>"; };
+		3C3F6F061E727C2F00677A19 /* SettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingViewController.h; sourceTree = "<group>"; };
+		3C3F6F071E727C2F00677A19 /* SettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingViewController.m; sourceTree = "<group>"; };
+		3C3F6F091E72830600677A19 /* AddPasswordViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddPasswordViewController.h; sourceTree = "<group>"; };
+		3C3F6F0A1E72830600677A19 /* AddPasswordViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddPasswordViewController.m; sourceTree = "<group>"; };
+		3C3F6F0C1E72848C00677A19 /* BasicViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BasicViewController.h; sourceTree = "<group>"; };
+		3C3F6F0D1E72848C00677A19 /* BasicViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BasicViewController.m; sourceTree = "<group>"; };
+		3C3F6F0F1E72852F00677A19 /* AddPasswordViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AddPasswordViewController.xib; sourceTree = "<group>"; };
+		3C3F6F111E72949100677A19 /* CustomTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomTableViewCell.h; sourceTree = "<group>"; };
+		3C3F6F121E72949100677A19 /* CustomTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomTableViewCell.m; sourceTree = "<group>"; };
+		3C3F6F131E72949100677A19 /* CustomTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomTableViewCell.xib; sourceTree = "<group>"; };
 		3CDF6D711E71335D00F251C4 /* ZFPassword.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZFPassword.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3CDF6D751E71335D00F251C4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		3CDF6D771E71335D00F251C4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -115,6 +135,7 @@
 		3C3F6EF11E7249DF00677A19 /* Class */ = {
 			isa = PBXGroup;
 			children = (
+				3C3F6F021E72793100677A19 /* Basic */,
 				3C3F6EF21E7249DF00677A19 /* Main */,
 			);
 			path = Class;
@@ -125,6 +146,9 @@
 			children = (
 				3C3F6EF71E724A3900677A19 /* PasswordModel.h */,
 				3C3F6EF81E724A3900677A19 /* PasswordModel.m */,
+				3C3F6F111E72949100677A19 /* CustomTableViewCell.h */,
+				3C3F6F121E72949100677A19 /* CustomTableViewCell.m */,
+				3C3F6F131E72949100677A19 /* CustomTableViewCell.xib */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -146,6 +170,17 @@
 				3C3F6EFE1E72505800677A19 /* JKDBModel.m */,
 			);
 			path = DBModel;
+			sourceTree = "<group>";
+		};
+		3C3F6F021E72793100677A19 /* Basic */ = {
+			isa = PBXGroup;
+			children = (
+				3C3F6F031E72795600677A19 /* BasicNavigationController.h */,
+				3C3F6F041E72795600677A19 /* BasicNavigationController.m */,
+				3C3F6F0C1E72848C00677A19 /* BasicViewController.h */,
+				3C3F6F0D1E72848C00677A19 /* BasicViewController.m */,
+			);
+			path = Basic;
 			sourceTree = "<group>";
 		};
 		3CDF6D681E71335D00F251C4 = {
@@ -179,10 +214,16 @@
 				3CDF6D781E71335D00F251C4 /* AppDelegate.m */,
 				3CDF6D7A1E71335D00F251C4 /* ViewController.h */,
 				3CDF6D7B1E71335D00F251C4 /* ViewController.m */,
+				3C3F6F061E727C2F00677A19 /* SettingViewController.h */,
+				3C3F6F071E727C2F00677A19 /* SettingViewController.m */,
+				3C3F6F091E72830600677A19 /* AddPasswordViewController.h */,
+				3C3F6F0A1E72830600677A19 /* AddPasswordViewController.m */,
+				3C3F6F0F1E72852F00677A19 /* AddPasswordViewController.xib */,
 				3CDF6D7D1E71335D00F251C4 /* Main.storyboard */,
 				3CDF6D801E71335D00F251C4 /* Assets.xcassets */,
 				3CDF6D821E71335D00F251C4 /* LaunchScreen.storyboard */,
 				3CDF6D851E71335D00F251C4 /* Info.plist */,
+				3C3F6F011E7278C300677A19 /* PrefixHeader.pch */,
 				3CDF6D741E71335D00F251C4 /* Supporting Files */,
 			);
 			path = ZFPassword;
@@ -304,7 +345,7 @@
 					3CDF6D701E71335D00F251C4 = {
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = CZHZJ4VRGZ;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 					};
 					3CDF6D891E71335D00F251C4 = {
 						CreatedOnToolsVersion = 8.2.1;
@@ -346,7 +387,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				3CDF6D841E71335D00F251C4 /* LaunchScreen.storyboard in Resources */,
+				3C3F6F101E72852F00677A19 /* AddPasswordViewController.xib in Resources */,
 				3CDF6D811E71335D00F251C4 /* Assets.xcassets in Resources */,
+				3C3F6F151E72949100677A19 /* CustomTableViewCell.xib in Resources */,
 				3CDF6D7F1E71335D00F251C4 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -511,11 +554,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				3CDF6D7C1E71335D00F251C4 /* ViewController.m in Sources */,
+				3C3F6F051E72795600677A19 /* BasicNavigationController.m in Sources */,
 				3CDF6D791E71335D00F251C4 /* AppDelegate.m in Sources */,
+				3C3F6F0E1E72848C00677A19 /* BasicViewController.m in Sources */,
 				3C3F6F001E72505800677A19 /* JKDBModel.m in Sources */,
+				3C3F6F141E72949100677A19 /* CustomTableViewCell.m in Sources */,
 				3C3F6EFF1E72505800677A19 /* JKDBHelper.m in Sources */,
 				3C3F6EF91E724A3900677A19 /* PasswordModel.m in Sources */,
+				3C3F6F0B1E72830600677A19 /* AddPasswordViewController.m in Sources */,
 				3CDF6D761E71335D00F251C4 /* main.m in Sources */,
+				3C3F6F081E727C2F00677A19 /* SettingViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -666,11 +714,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = CZHZJ4VRGZ;
+				GCC_PREFIX_HEADER = /Users/block/Desktop/ZFPassword/ZFPassword/ZFPassword/PrefixHeader.pch;
 				INFOPLIST_FILE = ZFPassword/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Transfer.ZFPassword;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "0c602e25-641d-4780-914e-fec617815a1d";
+				PROVISIONING_PROFILE_SPECIFIER = "Profile_ Development";
 			};
 			name = Debug;
 		};
@@ -680,11 +731,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = CZHZJ4VRGZ;
+				GCC_PREFIX_HEADER = /Users/block/Desktop/ZFPassword/ZFPassword/ZFPassword/PrefixHeader.pch;
 				INFOPLIST_FILE = ZFPassword/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Transfer.ZFPassword;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "0c602e25-641d-4780-914e-fec617815a1d";
+				PROVISIONING_PROFILE_SPECIFIER = "Profile_ Development";
 			};
 			name = Release;
 		};

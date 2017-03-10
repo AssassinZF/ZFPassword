@@ -7,7 +7,9 @@
 //
 
 #import "AppDelegate.h"
-
+#import "ViewController.h"
+#import "BasicNavigationController.h"
+#import "PasswordModel.h"
 
 @interface AppDelegate ()
 
@@ -17,7 +19,11 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    
+    BasicNavigationController *nav = [[BasicNavigationController alloc] initWithRootViewController:[[ViewController alloc] init]];
+    self.window.rootViewController = nav;
+    
+    [PasswordModel createTable];
     return YES;
 }
 

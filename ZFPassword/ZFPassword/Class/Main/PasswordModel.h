@@ -24,9 +24,11 @@ typedef NS_ENUM(NSInteger,AccountType) {
 
 @interface PasswordModel : JKDBModel
 @property (nonatomic , assign) AccountType accountType;
+@property (nonatomic , copy) NSString *titleLabel;
 @property (nonatomic , copy) NSString *nickName;
 @property (nonatomic , copy) NSString *phoneNumber;
 @property (nonatomic , copy) NSString *e_mail;
+@property (nonatomic , copy) NSString *userName;
 @property (nonatomic , copy) NSString *password;
 @property (nonatomic , copy) NSString *remark;//备注
 @end
