@@ -1,0 +1,787 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3C3F6EF91E724A3900677A19 /* PasswordModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C3F6EF81E724A3900677A19 /* PasswordModel.m */; };
+		3C3F6EFF1E72505800677A19 /* JKDBHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C3F6EFC1E72505800677A19 /* JKDBHelper.m */; };
+		3C3F6F001E72505800677A19 /* JKDBModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C3F6EFE1E72505800677A19 /* JKDBModel.m */; };
+		3CDF6D761E71335D00F251C4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CDF6D751E71335D00F251C4 /* main.m */; };
+		3CDF6D791E71335D00F251C4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CDF6D781E71335D00F251C4 /* AppDelegate.m */; };
+		3CDF6D7C1E71335D00F251C4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CDF6D7B1E71335D00F251C4 /* ViewController.m */; };
+		3CDF6D7F1E71335D00F251C4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3CDF6D7D1E71335D00F251C4 /* Main.storyboard */; };
+		3CDF6D811E71335D00F251C4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3CDF6D801E71335D00F251C4 /* Assets.xcassets */; };
+		3CDF6D841E71335D00F251C4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3CDF6D821E71335D00F251C4 /* LaunchScreen.storyboard */; };
+		3CDF6D8F1E71335D00F251C4 /* ZFPasswordTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CDF6D8E1E71335D00F251C4 /* ZFPasswordTests.m */; };
+		3CDF6D9A1E71335D00F251C4 /* ZFPasswordUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CDF6D991E71335D00F251C4 /* ZFPasswordUITests.m */; };
+		4CFE9A68FDD48826DBEA3F4A /* libPods-ZFPasswordTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AD478613227702063C1AEFC /* libPods-ZFPasswordTests.a */; };
+		6977569D2C88471E578A6247 /* libPods-ZFPasswordUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 84B13B42F87BADD688CDE116 /* libPods-ZFPasswordUITests.a */; };
+		B6DF5D8D6CD7C298AA0FD844 /* libPods-ZFPassword.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A108B1702700638274037D3C /* libPods-ZFPassword.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3CDF6D8B1E71335D00F251C4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3CDF6D691E71335D00F251C4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3CDF6D701E71335D00F251C4;
+			remoteInfo = ZFPassword;
+		};
+		3CDF6D961E71335D00F251C4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3CDF6D691E71335D00F251C4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3CDF6D701E71335D00F251C4;
+			remoteInfo = ZFPassword;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0B9F264B548F79023DB03F36 /* Pods-ZFPasswordUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZFPasswordUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZFPasswordUITests/Pods-ZFPasswordUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		3AD478613227702063C1AEFC /* libPods-ZFPasswordTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ZFPasswordTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C3F6EF71E724A3900677A19 /* PasswordModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PasswordModel.h; sourceTree = "<group>"; };
+		3C3F6EF81E724A3900677A19 /* PasswordModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PasswordModel.m; sourceTree = "<group>"; };
+		3C3F6EFB1E72505800677A19 /* JKDBHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKDBHelper.h; sourceTree = "<group>"; };
+		3C3F6EFC1E72505800677A19 /* JKDBHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKDBHelper.m; sourceTree = "<group>"; };
+		3C3F6EFD1E72505800677A19 /* JKDBModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKDBModel.h; sourceTree = "<group>"; };
+		3C3F6EFE1E72505800677A19 /* JKDBModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKDBModel.m; sourceTree = "<group>"; };
+		3CDF6D711E71335D00F251C4 /* ZFPassword.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZFPassword.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3CDF6D751E71335D00F251C4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3CDF6D771E71335D00F251C4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3CDF6D781E71335D00F251C4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3CDF6D7A1E71335D00F251C4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3CDF6D7B1E71335D00F251C4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3CDF6D7E1E71335D00F251C4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3CDF6D801E71335D00F251C4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3CDF6D831E71335D00F251C4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3CDF6D851E71335D00F251C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3CDF6D8A1E71335D00F251C4 /* ZFPasswordTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZFPasswordTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3CDF6D8E1E71335D00F251C4 /* ZFPasswordTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZFPasswordTests.m; sourceTree = "<group>"; };
+		3CDF6D901E71335D00F251C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3CDF6D951E71335D00F251C4 /* ZFPasswordUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZFPasswordUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3CDF6D991E71335D00F251C4 /* ZFPasswordUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZFPasswordUITests.m; sourceTree = "<group>"; };
+		3CDF6D9B1E71335D00F251C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84B13B42F87BADD688CDE116 /* libPods-ZFPasswordUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ZFPasswordUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		85CAE09C681C7A05B2D3C315 /* Pods-ZFPasswordTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZFPasswordTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZFPasswordTests/Pods-ZFPasswordTests.debug.xcconfig"; sourceTree = "<group>"; };
+		8CC10B956316421450334A7A /* Pods-ZFPasswordUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZFPasswordUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZFPasswordUITests/Pods-ZFPasswordUITests.release.xcconfig"; sourceTree = "<group>"; };
+		A108B1702700638274037D3C /* libPods-ZFPassword.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ZFPassword.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A620D1652AE8E28D749884D2 /* Pods-ZFPassword.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZFPassword.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZFPassword/Pods-ZFPassword.debug.xcconfig"; sourceTree = "<group>"; };
+		C10FA31455E50DD5121A1EFF /* Pods-ZFPasswordTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZFPasswordTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZFPasswordTests/Pods-ZFPasswordTests.release.xcconfig"; sourceTree = "<group>"; };
+		DD75B311CE4D61AF5E53BABE /* Pods-ZFPassword.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZFPassword.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZFPassword/Pods-ZFPassword.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3CDF6D6E1E71335D00F251C4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6DF5D8D6CD7C298AA0FD844 /* libPods-ZFPassword.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CDF6D871E71335D00F251C4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CFE9A68FDD48826DBEA3F4A /* libPods-ZFPasswordTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CDF6D921E71335D00F251C4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6977569D2C88471E578A6247 /* libPods-ZFPasswordUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0F4C14478031AFCF597B2488 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A108B1702700638274037D3C /* libPods-ZFPassword.a */,
+				3AD478613227702063C1AEFC /* libPods-ZFPasswordTests.a */,
+				84B13B42F87BADD688CDE116 /* libPods-ZFPasswordUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3C3F6EF11E7249DF00677A19 /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				3C3F6EF21E7249DF00677A19 /* Main */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
+		3C3F6EF21E7249DF00677A19 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				3C3F6EF71E724A3900677A19 /* PasswordModel.h */,
+				3C3F6EF81E724A3900677A19 /* PasswordModel.m */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		3C3F6EF31E7249DF00677A19 /* DataBase */ = {
+			isa = PBXGroup;
+			children = (
+				3C3F6EFA1E72505800677A19 /* DBModel */,
+			);
+			path = DataBase;
+			sourceTree = "<group>";
+		};
+		3C3F6EFA1E72505800677A19 /* DBModel */ = {
+			isa = PBXGroup;
+			children = (
+				3C3F6EFB1E72505800677A19 /* JKDBHelper.h */,
+				3C3F6EFC1E72505800677A19 /* JKDBHelper.m */,
+				3C3F6EFD1E72505800677A19 /* JKDBModel.h */,
+				3C3F6EFE1E72505800677A19 /* JKDBModel.m */,
+			);
+			path = DBModel;
+			sourceTree = "<group>";
+		};
+		3CDF6D681E71335D00F251C4 = {
+			isa = PBXGroup;
+			children = (
+				3CDF6D731E71335D00F251C4 /* ZFPassword */,
+				3CDF6D8D1E71335D00F251C4 /* ZFPasswordTests */,
+				3CDF6D981E71335D00F251C4 /* ZFPasswordUITests */,
+				3CDF6D721E71335D00F251C4 /* Products */,
+				B8DF40CBEEC9F1CC54B5C3BA /* Pods */,
+				0F4C14478031AFCF597B2488 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3CDF6D721E71335D00F251C4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3CDF6D711E71335D00F251C4 /* ZFPassword.app */,
+				3CDF6D8A1E71335D00F251C4 /* ZFPasswordTests.xctest */,
+				3CDF6D951E71335D00F251C4 /* ZFPasswordUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3CDF6D731E71335D00F251C4 /* ZFPassword */ = {
+			isa = PBXGroup;
+			children = (
+				3C3F6EF11E7249DF00677A19 /* Class */,
+				3C3F6EF31E7249DF00677A19 /* DataBase */,
+				3CDF6D771E71335D00F251C4 /* AppDelegate.h */,
+				3CDF6D781E71335D00F251C4 /* AppDelegate.m */,
+				3CDF6D7A1E71335D00F251C4 /* ViewController.h */,
+				3CDF6D7B1E71335D00F251C4 /* ViewController.m */,
+				3CDF6D7D1E71335D00F251C4 /* Main.storyboard */,
+				3CDF6D801E71335D00F251C4 /* Assets.xcassets */,
+				3CDF6D821E71335D00F251C4 /* LaunchScreen.storyboard */,
+				3CDF6D851E71335D00F251C4 /* Info.plist */,
+				3CDF6D741E71335D00F251C4 /* Supporting Files */,
+			);
+			path = ZFPassword;
+			sourceTree = "<group>";
+		};
+		3CDF6D741E71335D00F251C4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3CDF6D751E71335D00F251C4 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3CDF6D8D1E71335D00F251C4 /* ZFPasswordTests */ = {
+			isa = PBXGroup;
+			children = (
+				3CDF6D8E1E71335D00F251C4 /* ZFPasswordTests.m */,
+				3CDF6D901E71335D00F251C4 /* Info.plist */,
+			);
+			path = ZFPasswordTests;
+			sourceTree = "<group>";
+		};
+		3CDF6D981E71335D00F251C4 /* ZFPasswordUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3CDF6D991E71335D00F251C4 /* ZFPasswordUITests.m */,
+				3CDF6D9B1E71335D00F251C4 /* Info.plist */,
+			);
+			path = ZFPasswordUITests;
+			sourceTree = "<group>";
+		};
+		B8DF40CBEEC9F1CC54B5C3BA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A620D1652AE8E28D749884D2 /* Pods-ZFPassword.debug.xcconfig */,
+				DD75B311CE4D61AF5E53BABE /* Pods-ZFPassword.release.xcconfig */,
+				85CAE09C681C7A05B2D3C315 /* Pods-ZFPasswordTests.debug.xcconfig */,
+				C10FA31455E50DD5121A1EFF /* Pods-ZFPasswordTests.release.xcconfig */,
+				0B9F264B548F79023DB03F36 /* Pods-ZFPasswordUITests.debug.xcconfig */,
+				8CC10B956316421450334A7A /* Pods-ZFPasswordUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3CDF6D701E71335D00F251C4 /* ZFPassword */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3CDF6D9E1E71335D00F251C4 /* Build configuration list for PBXNativeTarget "ZFPassword" */;
+			buildPhases = (
+				769C94615D4E0BD95774728B /* [CP] Check Pods Manifest.lock */,
+				3CDF6D6D1E71335D00F251C4 /* Sources */,
+				3CDF6D6E1E71335D00F251C4 /* Frameworks */,
+				3CDF6D6F1E71335D00F251C4 /* Resources */,
+				6782E1EBC3891631558093B3 /* [CP] Embed Pods Frameworks */,
+				DCF877ACB2B7418F3994FA16 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZFPassword;
+			productName = ZFPassword;
+			productReference = 3CDF6D711E71335D00F251C4 /* ZFPassword.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3CDF6D891E71335D00F251C4 /* ZFPasswordTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3CDF6DA11E71335D00F251C4 /* Build configuration list for PBXNativeTarget "ZFPasswordTests" */;
+			buildPhases = (
+				746C620528FD29B2E656D3F2 /* [CP] Check Pods Manifest.lock */,
+				3CDF6D861E71335D00F251C4 /* Sources */,
+				3CDF6D871E71335D00F251C4 /* Frameworks */,
+				3CDF6D881E71335D00F251C4 /* Resources */,
+				A1231EE8CC58FF632A5F2820 /* [CP] Embed Pods Frameworks */,
+				0B58ECCDA461D8A8C7672BBC /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3CDF6D8C1E71335D00F251C4 /* PBXTargetDependency */,
+			);
+			name = ZFPasswordTests;
+			productName = ZFPasswordTests;
+			productReference = 3CDF6D8A1E71335D00F251C4 /* ZFPasswordTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3CDF6D941E71335D00F251C4 /* ZFPasswordUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3CDF6DA41E71335D00F251C4 /* Build configuration list for PBXNativeTarget "ZFPasswordUITests" */;
+			buildPhases = (
+				A294A213580B1EBF48824FC6 /* [CP] Check Pods Manifest.lock */,
+				3CDF6D911E71335D00F251C4 /* Sources */,
+				3CDF6D921E71335D00F251C4 /* Frameworks */,
+				3CDF6D931E71335D00F251C4 /* Resources */,
+				50C512D161790F0B195DF8C5 /* [CP] Embed Pods Frameworks */,
+				7B658BDE24D74D8ED7E4A0C4 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3CDF6D971E71335D00F251C4 /* PBXTargetDependency */,
+			);
+			name = ZFPasswordUITests;
+			productName = ZFPasswordUITests;
+			productReference = 3CDF6D951E71335D00F251C4 /* ZFPasswordUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3CDF6D691E71335D00F251C4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = zf.com;
+				TargetAttributes = {
+					3CDF6D701E71335D00F251C4 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = CZHZJ4VRGZ;
+						ProvisioningStyle = Automatic;
+					};
+					3CDF6D891E71335D00F251C4 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = CZHZJ4VRGZ;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3CDF6D701E71335D00F251C4;
+					};
+					3CDF6D941E71335D00F251C4 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = CZHZJ4VRGZ;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3CDF6D701E71335D00F251C4;
+					};
+				};
+			};
+			buildConfigurationList = 3CDF6D6C1E71335D00F251C4 /* Build configuration list for PBXProject "ZFPassword" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3CDF6D681E71335D00F251C4;
+			productRefGroup = 3CDF6D721E71335D00F251C4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3CDF6D701E71335D00F251C4 /* ZFPassword */,
+				3CDF6D891E71335D00F251C4 /* ZFPasswordTests */,
+				3CDF6D941E71335D00F251C4 /* ZFPasswordUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3CDF6D6F1E71335D00F251C4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CDF6D841E71335D00F251C4 /* LaunchScreen.storyboard in Resources */,
+				3CDF6D811E71335D00F251C4 /* Assets.xcassets in Resources */,
+				3CDF6D7F1E71335D00F251C4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CDF6D881E71335D00F251C4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CDF6D931E71335D00F251C4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0B58ECCDA461D8A8C7672BBC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZFPasswordTests/Pods-ZFPasswordTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		50C512D161790F0B195DF8C5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZFPasswordUITests/Pods-ZFPasswordUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6782E1EBC3891631558093B3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZFPassword/Pods-ZFPassword-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		746C620528FD29B2E656D3F2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		769C94615D4E0BD95774728B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		7B658BDE24D74D8ED7E4A0C4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZFPasswordUITests/Pods-ZFPasswordUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A1231EE8CC58FF632A5F2820 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZFPasswordTests/Pods-ZFPasswordTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A294A213580B1EBF48824FC6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		DCF877ACB2B7418F3994FA16 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZFPassword/Pods-ZFPassword-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3CDF6D6D1E71335D00F251C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CDF6D7C1E71335D00F251C4 /* ViewController.m in Sources */,
+				3CDF6D791E71335D00F251C4 /* AppDelegate.m in Sources */,
+				3C3F6F001E72505800677A19 /* JKDBModel.m in Sources */,
+				3C3F6EFF1E72505800677A19 /* JKDBHelper.m in Sources */,
+				3C3F6EF91E724A3900677A19 /* PasswordModel.m in Sources */,
+				3CDF6D761E71335D00F251C4 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CDF6D861E71335D00F251C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CDF6D8F1E71335D00F251C4 /* ZFPasswordTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CDF6D911E71335D00F251C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CDF6D9A1E71335D00F251C4 /* ZFPasswordUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3CDF6D8C1E71335D00F251C4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3CDF6D701E71335D00F251C4 /* ZFPassword */;
+			targetProxy = 3CDF6D8B1E71335D00F251C4 /* PBXContainerItemProxy */;
+		};
+		3CDF6D971E71335D00F251C4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3CDF6D701E71335D00F251C4 /* ZFPassword */;
+			targetProxy = 3CDF6D961E71335D00F251C4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3CDF6D7D1E71335D00F251C4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3CDF6D7E1E71335D00F251C4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3CDF6D821E71335D00F251C4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3CDF6D831E71335D00F251C4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3CDF6D9C1E71335D00F251C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3CDF6D9D1E71335D00F251C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3CDF6D9F1E71335D00F251C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A620D1652AE8E28D749884D2 /* Pods-ZFPassword.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = CZHZJ4VRGZ;
+				INFOPLIST_FILE = ZFPassword/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Transfer.ZFPassword;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3CDF6DA01E71335D00F251C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DD75B311CE4D61AF5E53BABE /* Pods-ZFPassword.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = CZHZJ4VRGZ;
+				INFOPLIST_FILE = ZFPassword/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Transfer.ZFPassword;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3CDF6DA21E71335D00F251C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 85CAE09C681C7A05B2D3C315 /* Pods-ZFPasswordTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = CZHZJ4VRGZ;
+				INFOPLIST_FILE = ZFPasswordTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Transfer.ZFPasswordTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZFPassword.app/ZFPassword";
+			};
+			name = Debug;
+		};
+		3CDF6DA31E71335D00F251C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C10FA31455E50DD5121A1EFF /* Pods-ZFPasswordTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = CZHZJ4VRGZ;
+				INFOPLIST_FILE = ZFPasswordTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Transfer.ZFPasswordTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZFPassword.app/ZFPassword";
+			};
+			name = Release;
+		};
+		3CDF6DA51E71335D00F251C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0B9F264B548F79023DB03F36 /* Pods-ZFPasswordUITests.debug.xcconfig */;
+			buildSettings = {
+				DEVELOPMENT_TEAM = CZHZJ4VRGZ;
+				INFOPLIST_FILE = ZFPasswordUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Transfer.ZFPasswordUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ZFPassword;
+			};
+			name = Debug;
+		};
+		3CDF6DA61E71335D00F251C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8CC10B956316421450334A7A /* Pods-ZFPasswordUITests.release.xcconfig */;
+			buildSettings = {
+				DEVELOPMENT_TEAM = CZHZJ4VRGZ;
+				INFOPLIST_FILE = ZFPasswordUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Transfer.ZFPasswordUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ZFPassword;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3CDF6D6C1E71335D00F251C4 /* Build configuration list for PBXProject "ZFPassword" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CDF6D9C1E71335D00F251C4 /* Debug */,
+				3CDF6D9D1E71335D00F251C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3CDF6D9E1E71335D00F251C4 /* Build configuration list for PBXNativeTarget "ZFPassword" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CDF6D9F1E71335D00F251C4 /* Debug */,
+				3CDF6DA01E71335D00F251C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3CDF6DA11E71335D00F251C4 /* Build configuration list for PBXNativeTarget "ZFPasswordTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CDF6DA21E71335D00F251C4 /* Debug */,
+				3CDF6DA31E71335D00F251C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3CDF6DA41E71335D00F251C4 /* Build configuration list for PBXNativeTarget "ZFPasswordUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CDF6DA51E71335D00F251C4 /* Debug */,
+				3CDF6DA61E71335D00F251C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3CDF6D691E71335D00F251C4 /* Project object */;
+}
