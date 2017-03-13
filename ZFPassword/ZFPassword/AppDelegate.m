@@ -11,6 +11,8 @@
 #import "BasicNavigationController.h"
 #import "PasswordModel.h"
 
+#import "PasswordCheckController.h"
+
 @interface AppDelegate ()
 
 @end
@@ -20,8 +22,11 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     
-    BasicNavigationController *nav = [[BasicNavigationController alloc] initWithRootViewController:[[ViewController alloc] init]];
-    self.window.rootViewController = nav;
+    
+    PasswordCheckController *vc = [[PasswordCheckController alloc] init];
+    self.window.rootViewController = vc;
+    
+    
     
     [PasswordModel createTable];
     return YES;

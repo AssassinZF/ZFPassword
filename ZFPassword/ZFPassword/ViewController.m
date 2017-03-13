@@ -11,9 +11,13 @@
 #import "AddPasswordViewController.h"
 #import "PasswordModel.h"
 #import "CustomTableViewCell.h"
+#import "PasswordCheckController.h"
 const CGFloat button_w = 50;
 
 @interface ViewController ()<UITableViewDelegate,UITableViewDataSource>
+{
+    BOOL checkSuccess;
+}
 @property (nonatomic , strong) UIButton *addButton;
 @property (nonatomic , strong) UITableView *myTableView;
 @property (nonatomic , strong) NSMutableArray *dataSource;
@@ -22,6 +26,15 @@ const CGFloat button_w = 50;
 
 @implementation ViewController
 
+-(void)viewWillAppear:(BOOL)animated{
+    [super viewWillAppear:animated];
+}
+
+-(void)viewDidAppear:(BOOL)animated{
+    [super viewDidAppear:animated];
+
+}
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.title = @"密码薄";
@@ -29,7 +42,6 @@ const CGFloat button_w = 50;
     [self.view addSubview:self.myTableView];
     [self.view addSubview:self.addButton];
     [self reloadData];
-    
     
     
 }

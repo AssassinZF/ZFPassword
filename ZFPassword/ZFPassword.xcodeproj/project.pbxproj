@@ -28,6 +28,8 @@
 		3CDF6D9A1E71335D00F251C4 /* ZFPasswordUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CDF6D991E71335D00F251C4 /* ZFPasswordUITests.m */; };
 		3CEB18321E763921008350CF /* UIFont+font.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CEB18311E763921008350CF /* UIFont+font.m */; };
 		3CEB18351E76393B008350CF /* UIColor+color.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CEB18341E76393B008350CF /* UIColor+color.m */; };
+		3CEB18391E767921008350CF /* PasswordCheckController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CEB18371E767921008350CF /* PasswordCheckController.m */; };
+		3CEB183A1E767921008350CF /* PasswordCheckController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3CEB18381E767921008350CF /* PasswordCheckController.xib */; };
 		4CFE9A68FDD48826DBEA3F4A /* libPods-ZFPasswordTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AD478613227702063C1AEFC /* libPods-ZFPasswordTests.a */; };
 		6977569D2C88471E578A6247 /* libPods-ZFPasswordUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 84B13B42F87BADD688CDE116 /* libPods-ZFPasswordUITests.a */; };
 		B6DF5D8D6CD7C298AA0FD844 /* libPods-ZFPassword.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A108B1702700638274037D3C /* libPods-ZFPassword.a */; };
@@ -94,6 +96,9 @@
 		3CEB18311E763921008350CF /* UIFont+font.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIFont+font.m"; sourceTree = "<group>"; };
 		3CEB18331E76393B008350CF /* UIColor+color.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+color.h"; sourceTree = "<group>"; };
 		3CEB18341E76393B008350CF /* UIColor+color.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+color.m"; sourceTree = "<group>"; };
+		3CEB18361E767921008350CF /* PasswordCheckController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PasswordCheckController.h; sourceTree = "<group>"; };
+		3CEB18371E767921008350CF /* PasswordCheckController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PasswordCheckController.m; sourceTree = "<group>"; };
+		3CEB18381E767921008350CF /* PasswordCheckController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PasswordCheckController.xib; sourceTree = "<group>"; };
 		84B13B42F87BADD688CDE116 /* libPods-ZFPasswordUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ZFPasswordUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		85CAE09C681C7A05B2D3C315 /* Pods-ZFPasswordTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZFPasswordTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZFPasswordTests/Pods-ZFPasswordTests.debug.xcconfig"; sourceTree = "<group>"; };
 		8CC10B956316421450334A7A /* Pods-ZFPasswordUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZFPasswordUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZFPasswordUITests/Pods-ZFPasswordUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -231,6 +236,9 @@
 				3C3F6F091E72830600677A19 /* AddPasswordViewController.h */,
 				3C3F6F0A1E72830600677A19 /* AddPasswordViewController.m */,
 				3C3F6F0F1E72852F00677A19 /* AddPasswordViewController.xib */,
+				3CEB18361E767921008350CF /* PasswordCheckController.h */,
+				3CEB18371E767921008350CF /* PasswordCheckController.m */,
+				3CEB18381E767921008350CF /* PasswordCheckController.xib */,
 				3CDF6D7D1E71335D00F251C4 /* Main.storyboard */,
 				3CDF6D801E71335D00F251C4 /* Assets.xcassets */,
 				3CDF6D821E71335D00F251C4 /* LaunchScreen.storyboard */,
@@ -420,6 +428,7 @@
 				3CDF6D841E71335D00F251C4 /* LaunchScreen.storyboard in Resources */,
 				3C3F6F101E72852F00677A19 /* AddPasswordViewController.xib in Resources */,
 				3CDF6D811E71335D00F251C4 /* Assets.xcassets in Resources */,
+				3CEB183A1E767921008350CF /* PasswordCheckController.xib in Resources */,
 				3C3F6F151E72949100677A19 /* CustomTableViewCell.xib in Resources */,
 				3CDF6D7F1E71335D00F251C4 /* Main.storyboard in Resources */,
 			);
@@ -588,6 +597,7 @@
 				3C3F6F051E72795600677A19 /* BasicNavigationController.m in Sources */,
 				3C3F6F181E72C8D400677A19 /* SettingTableViewCell.m in Sources */,
 				3CEB18351E76393B008350CF /* UIColor+color.m in Sources */,
+				3CEB18391E767921008350CF /* PasswordCheckController.m in Sources */,
 				3CDF6D791E71335D00F251C4 /* AppDelegate.m in Sources */,
 				3C3F6F0E1E72848C00677A19 /* BasicViewController.m in Sources */,
 				3C3F6F001E72505800677A19 /* JKDBModel.m in Sources */,
