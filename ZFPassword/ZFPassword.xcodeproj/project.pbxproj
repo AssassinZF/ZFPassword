@@ -17,6 +17,7 @@
 		3C3F6F101E72852F00677A19 /* AddPasswordViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3C3F6F0F1E72852F00677A19 /* AddPasswordViewController.xib */; };
 		3C3F6F141E72949100677A19 /* CustomTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C3F6F121E72949100677A19 /* CustomTableViewCell.m */; };
 		3C3F6F151E72949100677A19 /* CustomTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3C3F6F131E72949100677A19 /* CustomTableViewCell.xib */; };
+		3C3F6F181E72C8D400677A19 /* SettingTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C3F6F171E72C8D400677A19 /* SettingTableViewCell.m */; };
 		3CDF6D761E71335D00F251C4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CDF6D751E71335D00F251C4 /* main.m */; };
 		3CDF6D791E71335D00F251C4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CDF6D781E71335D00F251C4 /* AppDelegate.m */; };
 		3CDF6D7C1E71335D00F251C4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CDF6D7B1E71335D00F251C4 /* ViewController.m */; };
@@ -25,6 +26,8 @@
 		3CDF6D841E71335D00F251C4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3CDF6D821E71335D00F251C4 /* LaunchScreen.storyboard */; };
 		3CDF6D8F1E71335D00F251C4 /* ZFPasswordTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CDF6D8E1E71335D00F251C4 /* ZFPasswordTests.m */; };
 		3CDF6D9A1E71335D00F251C4 /* ZFPasswordUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CDF6D991E71335D00F251C4 /* ZFPasswordUITests.m */; };
+		3CEB18321E763921008350CF /* UIFont+font.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CEB18311E763921008350CF /* UIFont+font.m */; };
+		3CEB18351E76393B008350CF /* UIColor+color.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CEB18341E76393B008350CF /* UIColor+color.m */; };
 		4CFE9A68FDD48826DBEA3F4A /* libPods-ZFPasswordTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AD478613227702063C1AEFC /* libPods-ZFPasswordTests.a */; };
 		6977569D2C88471E578A6247 /* libPods-ZFPasswordUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 84B13B42F87BADD688CDE116 /* libPods-ZFPasswordUITests.a */; };
 		B6DF5D8D6CD7C298AA0FD844 /* libPods-ZFPassword.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A108B1702700638274037D3C /* libPods-ZFPassword.a */; };
@@ -69,6 +72,8 @@
 		3C3F6F111E72949100677A19 /* CustomTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomTableViewCell.h; sourceTree = "<group>"; };
 		3C3F6F121E72949100677A19 /* CustomTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomTableViewCell.m; sourceTree = "<group>"; };
 		3C3F6F131E72949100677A19 /* CustomTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomTableViewCell.xib; sourceTree = "<group>"; };
+		3C3F6F161E72C8D400677A19 /* SettingTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingTableViewCell.h; sourceTree = "<group>"; };
+		3C3F6F171E72C8D400677A19 /* SettingTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingTableViewCell.m; sourceTree = "<group>"; };
 		3CDF6D711E71335D00F251C4 /* ZFPassword.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZFPassword.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3CDF6D751E71335D00F251C4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		3CDF6D771E71335D00F251C4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -85,6 +90,10 @@
 		3CDF6D951E71335D00F251C4 /* ZFPasswordUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZFPasswordUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3CDF6D991E71335D00F251C4 /* ZFPasswordUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZFPasswordUITests.m; sourceTree = "<group>"; };
 		3CDF6D9B1E71335D00F251C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3CEB18301E763921008350CF /* UIFont+font.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIFont+font.h"; sourceTree = "<group>"; };
+		3CEB18311E763921008350CF /* UIFont+font.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIFont+font.m"; sourceTree = "<group>"; };
+		3CEB18331E76393B008350CF /* UIColor+color.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+color.h"; sourceTree = "<group>"; };
+		3CEB18341E76393B008350CF /* UIColor+color.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+color.m"; sourceTree = "<group>"; };
 		84B13B42F87BADD688CDE116 /* libPods-ZFPasswordUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ZFPasswordUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		85CAE09C681C7A05B2D3C315 /* Pods-ZFPasswordTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZFPasswordTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZFPasswordTests/Pods-ZFPasswordTests.debug.xcconfig"; sourceTree = "<group>"; };
 		8CC10B956316421450334A7A /* Pods-ZFPasswordUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZFPasswordUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZFPasswordUITests/Pods-ZFPasswordUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -135,6 +144,7 @@
 		3C3F6EF11E7249DF00677A19 /* Class */ = {
 			isa = PBXGroup;
 			children = (
+				3CEB182E1E7638C9008350CF /* Expand */,
 				3C3F6F021E72793100677A19 /* Basic */,
 				3C3F6EF21E7249DF00677A19 /* Main */,
 			);
@@ -149,6 +159,8 @@
 				3C3F6F111E72949100677A19 /* CustomTableViewCell.h */,
 				3C3F6F121E72949100677A19 /* CustomTableViewCell.m */,
 				3C3F6F131E72949100677A19 /* CustomTableViewCell.xib */,
+				3C3F6F161E72C8D400677A19 /* SettingTableViewCell.h */,
+				3C3F6F171E72C8D400677A19 /* SettingTableViewCell.m */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -253,6 +265,25 @@
 				3CDF6D9B1E71335D00F251C4 /* Info.plist */,
 			);
 			path = ZFPasswordUITests;
+			sourceTree = "<group>";
+		};
+		3CEB182E1E7638C9008350CF /* Expand */ = {
+			isa = PBXGroup;
+			children = (
+				3CEB182F1E7638C9008350CF /* Category */,
+			);
+			path = Expand;
+			sourceTree = "<group>";
+		};
+		3CEB182F1E7638C9008350CF /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				3CEB18301E763921008350CF /* UIFont+font.h */,
+				3CEB18311E763921008350CF /* UIFont+font.m */,
+				3CEB18331E76393B008350CF /* UIColor+color.h */,
+				3CEB18341E76393B008350CF /* UIColor+color.m */,
+			);
+			path = Category;
 			sourceTree = "<group>";
 		};
 		B8DF40CBEEC9F1CC54B5C3BA /* Pods */ = {
@@ -555,6 +586,8 @@
 			files = (
 				3CDF6D7C1E71335D00F251C4 /* ViewController.m in Sources */,
 				3C3F6F051E72795600677A19 /* BasicNavigationController.m in Sources */,
+				3C3F6F181E72C8D400677A19 /* SettingTableViewCell.m in Sources */,
+				3CEB18351E76393B008350CF /* UIColor+color.m in Sources */,
 				3CDF6D791E71335D00F251C4 /* AppDelegate.m in Sources */,
 				3C3F6F0E1E72848C00677A19 /* BasicViewController.m in Sources */,
 				3C3F6F001E72505800677A19 /* JKDBModel.m in Sources */,
@@ -564,6 +597,7 @@
 				3C3F6F0B1E72830600677A19 /* AddPasswordViewController.m in Sources */,
 				3CDF6D761E71335D00F251C4 /* main.m in Sources */,
 				3C3F6F081E727C2F00677A19 /* SettingViewController.m in Sources */,
+				3CEB18321E763921008350CF /* UIFont+font.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

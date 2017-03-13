@@ -30,6 +30,8 @@ const CGFloat button_w = 50;
     [self.view addSubview:self.addButton];
     [self reloadData];
     
+    
+    
 }
 
 -(void)addNavRightItem{

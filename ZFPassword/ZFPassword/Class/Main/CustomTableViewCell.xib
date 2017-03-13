@@ -18,15 +18,15 @@
                 <rect key="frame" x="0.0" y="0.0" width="322" height="60"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
-                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="ed0-QF-HLx">
-                        <rect key="frame" x="5" y="5" width="50" height="50"/>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="MainIcon" translatesAutoresizingMaskIntoConstraints="NO" id="ed0-QF-HLx">
+                        <rect key="frame" x="5" y="5" width="50" height="49"/>
                         <constraints>
                             <constraint firstAttribute="width" constant="50" id="OuJ-aE-We2"/>
                         </constraints>
                     </imageView>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4TE-1v-8b7">
-                        <rect key="frame" x="75" y="19" width="42" height="21"/>
-                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <rect key="frame" x="75" y="18" width="49" height="24"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
                         <nil key="textColor"/>
                         <nil key="highlightedColor"/>
                     </label>
@@ -43,7 +43,10 @@
                 <outlet property="iconImageView" destination="ed0-QF-HLx" id="83i-Zl-zQS"/>
                 <outlet property="titleLabel" destination="4TE-1v-8b7" id="Sh0-AS-rs8"/>
             </connections>
-            <point key="canvasLocation" x="-333" y="-16"/>
+            <point key="canvasLocation" x="-641" y="-3"/>
         </tableViewCell>
     </objects>
+    <resources>
+        <image name="MainIcon" width="60" height="60"/>
+    </resources>
 </document>
